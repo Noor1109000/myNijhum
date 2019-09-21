@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700&display=swap&subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,500,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700&display=swap" rel="stylesheet">
+
+
+        <!-- Font Awesome -->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+        <!-- <link rel="stylesheet" href="css/owl.carousel.min.css"> -->
+        <link rel="stylesheet" href="css/owl.theme.default.css">
+
+      
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+
+        <title>NijhumShop</title>
+     
+
+        
+    </head>
+
+    <body>
+      
+      <!-- header section start-->
+      <header>
+        <div class="headerTop textColor">
+                <nav id="topMenu" class="topMenu navbar bg-transparent">
+                  <div class="container">
+                    <div class="navbar-header">
+                      <a class="navbar-brand" href="#">Welcome to NijhumShop</a>
+                    </div>
+                    <ul class=" nav navbar-nav navbar-right">
+                      <li class="active"><a href="#"><i class="fa fa-map-marker"></i>store locator</a></li>
+                      <li class="active"><a href="#"><i class="fa fa-truck"></i>track your order</a></li>
+                      <li class="active"><a href="#"><i class="fa fa-shopping-cart"></i>shop</a></li>
+                      <li class="active"><a href="#"><i class="fa fa-user"></i>my account</a></li>
+                      
+                    </ul>
+                  </div>
+                </nav>
+        </div>
+      </header>
+      <!-- header section end -->
+
+
+    
+  <!--    <script src="assets/js/jquery-3.4.1.min.js"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+
+  <script src="js/main.js"></script>
+
+  
+    </body>
+</html>

@@ -1,0 +1,201 @@
+body{
+  font-family: 'Nunito', sans-serif;
+  color: #333e48;  
+
+
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.primaryColor{
+  color: rgb(242,102,34);
+}
+.secondaryColor{
+  color: #155F93;
+}
+.textColor{
+  color: #334141;
+}
+.menuBorder{
+  border-right: #cad5d5;
+}
+
+/* ========== header section============ */
+.headerTop{
+  border-bottom: 1px solid #ddd;
+  padding: 5px 0;
+}
+#topMenu a, #navbarNav ul li a{
+  font-size: 14px;
+  color: #334141;
+  text-transform: capitalize;
+
+}
+#navbarNav ul li a {
+  color: #334141;
+  border-right: 1px solid #ddd;
+  padding: 0px 15px;
+}
+
+/* ====== bottom navigation========= */
+.headerBottom {
+  padding: 10px 10px 0px 10px;
+  border-bottom: 1px solid #ddd;
+  color: #333333;
+}
+
+.logo img{
+  width: 150px;
+  height: 50px;
+}
+.search{
+  border: 2px solid #F36C24;
+    border-radius: 22.5px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.search .input-group{
+  display: flex;
+}
+#inputGroupSelect{
+  height: 100%;
+    border: 0px;
+    background: transparent;
+    padding: 8px 0px;
+    font-size: 14px !important;
+    margin-left: 15px;
+    border-right: 1px solid #ddd;
+    margin-right: 5px;
+}
+
+.searchInput{
+  padding: 8px 10px;
+  border: 0px;
+  height: 100%;
+}
+.searchButton{
+  border: 0px;
+  background: transparent;
+  padding: 0px 25px;
+  border-radius: 0 22.5px 22.5px 0;
+  background: #F36C24;
+  color: wheat;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.searchInfo{
+  display: flex;
+  text-align: center;
+}
+.searchInfo .signIn{
+  display: flex;
+}
+
+.searchInfo a {
+  padding: 0px 5px;
+  color: #334141;
+  margin: 0 3px;
+  font-weight: lighter;
+  margin: 5px 5px;
+}
+
+.searchInfo a i {
+  font-size: 22px;
+  color: #333;
+  margin-right: 5px;
+}
+
+.searchInfo a p {
+  color: #242424;
+  font-weight: lighter;
+}
+
+/* ====== slider images====== */
+#slider{
+  position: relative;
+}
+.imgContent img {
+  height: 80vh;
+  width: 100%;
+}
+
+div#sliderContent {
+  position: relative;
+  height: 100%;
+}
+.sliderInfo {
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  text-align: center;
+  color: white;
+}
+
+#banner{
+  position: relative;
+}
+div#banner img {
+  height: 80vh;
+}
+
+
+.sliderControl {
+  left: 0px;
+  top: 40%;
+  position: absolute;
+  /* background: red; */
+  z-index: 90;
+  width: 100%;
+}
+
+
+/* ======== owl navigation========== */
+.owl-nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: black;
+  cursor: pointer;
+
+}
+.owl-nav button span {
+  display: none;
+}
+
+.owl-prev .fa-angle-left {
+  font-size: 2em;
+  color: #F2661C;
+  border: 1px solid #F2661C;
+  padding: 13px;
+}
+.owl-next .fa-angle-right {
+  font-size: 2em;
+  color: #F2661C;
+  border: 1px solid #F2661C;
+  padding: 13px;
+}
+
+/* ========= owl-dots=========== */
+.owl-carousel button.owl-dot{
+  display: inline-block;
+  margin: 0px 2.5px;
+  height: 15px;
+  width: 15px;
+  background: #F26621;
+}
+
+.owl-carousel button.owl-dot.active{
+  background: #085F92;
+  height: 12px;
+  width: 15px;
+  transition: all .5s ease-out;
+}
+
+div#banner .owl-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 2px;
+}
